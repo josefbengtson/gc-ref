@@ -1,0 +1,833 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 4.18.0-513.11.1.el8_9.0.1.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /apps/Arch/software/GCCcore/10.3.0/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/3.31.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /apps/Arch/software/GCCcore/10.3.0/bin/c++ 
+      Build flags: -DVERSION_INFO="2.0.4"
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/3.31.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-ABVUNV"
+      binary: "/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-ABVUNV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-ABVUNV'
+        
+        Run Build Command(s): /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_da518/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_da518.dir/build.make CMakeFiles/cmTC_da518.dir/build
+        gmake[1]: Entering directory '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-ABVUNV'
+        Building C object CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o
+        /apps/Arch/software/GCCcore/10.3.0/bin/cc   -v -o CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o -c /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/apps/Arch/software/GCCcore/10.3.0/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/Arch/software/GCCcore/10.3.0 --with-local-prefix=/apps/Arch/software/GCCcore/10.3.0 --enable-bootstrap --with-isl=/dev/shm/GCCcore/10.3.0/system-system/gcc-10.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/cc1 -quiet -v /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccs2u1Zm.s
+        GNU C17 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed"
+        ignoring nonexistent directory "/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include
+         /apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include
+         /apps/Arch/software/OpenSSL/1.1/include
+         /apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include
+         /apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include
+         /apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include
+         /apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include
+         /apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include
+         /apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include
+         /apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include
+         /apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include
+         /apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include
+         /apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include
+         /apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include
+         /apps/Common/software/CUDA/11.8.0/nvvm/include
+         /apps/Common/software/CUDA/11.8.0/extras/CUPTI/include
+         /apps/Common/software/CUDA/11.8.0/include
+         /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include
+         /apps/Arch/software/GCCcore/10.3.0/include
+         /usr/include
+        End of search list.
+        GNU C17 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 5a9697600f6222bafd62f659b7905983
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o /tmp/ccs2u1Zm.s
+        GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+        COMPILER_PATH=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/OpenSSL/1.1/lib/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/:/apps/Arch/software/OpenSSL/1.1/lib/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/:/apps/Common/software/CUDA/11.8.0/lib/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_da518
+        /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da518.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/apps/Arch/software/GCCcore/10.3.0/bin/cc
+        COLLECT_LTO_WRAPPER=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/Arch/software/GCCcore/10.3.0 --with-local-prefix=/apps/Arch/software/GCCcore/10.3.0 --enable-bootstrap --with-isl=/dev/shm/GCCcore/10.3.0/system-system/gcc-10.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (GCC) 
+        COMPILER_PATH=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/OpenSSL/1.1/lib/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/:/apps/Arch/software/OpenSSL/1.1/lib/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/:/apps/Common/software/CUDA/11.8.0/lib/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_da518' '-mtune=generic' '-march=x86-64'
+         /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2 -plugin /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7CEYAe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_da518 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/OpenSSL/1.1/lib/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64 -L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib -L/apps/Arch/software/OpenSSL/1.1/lib -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib -L/apps/Common/software/CUDA/11.8.0/stubs/lib64 -L/apps/Common/software/CUDA/11.8.0/lib -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. -v CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o
+        collect2 version 10.3.0
+        /apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/bin/ld.gold -plugin /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7CEYAe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_da518 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/OpenSSL/1.1/lib/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64 -L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib -L/apps/Arch/software/OpenSSL/1.1/lib -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib -L/apps/Common/software/CUDA/11.8.0/stubs/lib64 -L/apps/Common/software/CUDA/11.8.0/lib -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. -v CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o
+        GNU gold (GNU Binutils 2.36.1) 1.16
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_da518' '-mtune=generic' '-march=x86-64'
+        /apps/Arch/software/GCCcore/10.3.0/bin/cc  -v -Wl,-v CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o -o cmTC_da518
+        gmake[1]: Leaving directory '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-ABVUNV'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/OpenSSL/1.1/include]
+          add: [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include]
+          add: [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include]
+          add: [/apps/Common/software/CUDA/11.8.0/nvvm/include]
+          add: [/apps/Common/software/CUDA/11.8.0/extras/CUPTI/include]
+          add: [/apps/Common/software/CUDA/11.8.0/include]
+          add: [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+          add: [/apps/Arch/software/GCCcore/10.3.0/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include] ==> [/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include] ==> [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/OpenSSL/1.1/include] ==> [/apps/Arch/software/OpenSSL/1.1/include]
+        collapse include dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include] ==> [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include] ==> [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include] ==> [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include] ==> [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include] ==> [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include] ==> [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include] ==> [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include] ==> [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include] ==> [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include] ==> [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include]
+        collapse include dir [/apps/Common/software/CUDA/11.8.0/nvvm/include] ==> [/apps/Common/software/CUDA/11.8.0/nvvm/include]
+        collapse include dir [/apps/Common/software/CUDA/11.8.0/extras/CUPTI/include] ==> [/apps/Common/software/CUDA/11.8.0/extras/CUPTI/include]
+        collapse include dir [/apps/Common/software/CUDA/11.8.0/include] ==> [/apps/Common/software/CUDA/11.8.0/include]
+        collapse include dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include] ==> [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+        collapse include dir [/apps/Arch/software/GCCcore/10.3.0/include] ==> [/apps/Arch/software/GCCcore/10.3.0/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include;/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include;/apps/Arch/software/OpenSSL/1.1/include;/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include;/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include;/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include;/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include;/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include;/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include;/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include;/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include;/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include;/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include;/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include;/apps/Common/software/CUDA/11.8.0/nvvm/include;/apps/Common/software/CUDA/11.8.0/extras/CUPTI/include;/apps/Common/software/CUDA/11.8.0/include;/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include;/apps/Arch/software/GCCcore/10.3.0/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-ABVUNV']
+        ignore line: []
+        ignore line: [Run Build Command(s): /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_da518/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_da518.dir/build.make CMakeFiles/cmTC_da518.dir/build]
+        ignore line: [gmake[1]: Entering directory '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-ABVUNV']
+        ignore line: [Building C object CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/apps/Arch/software/GCCcore/10.3.0/bin/cc   -v -o CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o -c /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/apps/Arch/software/GCCcore/10.3.0/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/Arch/software/GCCcore/10.3.0 --with-local-prefix=/apps/Arch/software/GCCcore/10.3.0 --enable-bootstrap --with-isl=/dev/shm/GCCcore/10.3.0/system-system/gcc-10.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/cc1 -quiet -v /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccs2u1Zm.s]
+        ignore line: [GNU C17 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/OpenSSL/1.1/include]
+        ignore line: [ /apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include]
+        ignore line: [ /apps/Common/software/CUDA/11.8.0/nvvm/include]
+        ignore line: [ /apps/Common/software/CUDA/11.8.0/extras/CUPTI/include]
+        ignore line: [ /apps/Common/software/CUDA/11.8.0/include]
+        ignore line: [ /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+        ignore line: [ /apps/Arch/software/GCCcore/10.3.0/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 5a9697600f6222bafd62f659b7905983]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o /tmp/ccs2u1Zm.s]
+        ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
+        ignore line: [COMPILER_PATH=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/OpenSSL/1.1/lib/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/:/apps/Arch/software/OpenSSL/1.1/lib/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/:/apps/Common/software/CUDA/11.8.0/lib/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_da518]
+        ignore line: [/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da518.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/apps/Arch/software/GCCcore/10.3.0/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/Arch/software/GCCcore/10.3.0 --with-local-prefix=/apps/Arch/software/GCCcore/10.3.0 --enable-bootstrap --with-isl=/dev/shm/GCCcore/10.3.0/system-system/gcc-10.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/OpenSSL/1.1/lib/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/:/apps/Arch/software/OpenSSL/1.1/lib/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/:/apps/Common/software/CUDA/11.8.0/lib/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_da518' '-mtune=generic' '-march=x86-64']
+        link line: [ /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2 -plugin /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7CEYAe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_da518 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/OpenSSL/1.1/lib/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64 -L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib -L/apps/Arch/software/OpenSSL/1.1/lib -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib -L/apps/Common/software/CUDA/11.8.0/stubs/lib64 -L/apps/Common/software/CUDA/11.8.0/lib -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. -v CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc7CEYAe.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_da518] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o] ==> obj [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o]
+          arg [-L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/OpenSSL/1.1/lib/../lib64] ==> dir [/apps/Arch/software/OpenSSL/1.1/lib/../lib64]
+          arg [-L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64] ==> dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64]
+          arg [-L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64] ==> dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64]
+          arg [-L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64] ==> dir [/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64]
+          arg [-L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0] ==> dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0]
+          arg [-L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64] ==> dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/OpenSSL/1.1/lib] ==> dir [/apps/Arch/software/OpenSSL/1.1/lib]
+          arg [-L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64] ==> dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64]
+          arg [-L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib]
+          arg [-L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib] ==> dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib]
+          arg [-L/apps/Common/software/CUDA/11.8.0/stubs/lib64] ==> dir [/apps/Common/software/CUDA/11.8.0/stubs/lib64]
+          arg [-L/apps/Common/software/CUDA/11.8.0/lib] ==> dir [/apps/Common/software/CUDA/11.8.0/lib]
+          arg [-L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..] ==> dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o] ==> obj [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 10.3.0]
+        ignore line: [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/bin/ld.gold -plugin /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7CEYAe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_da518 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/OpenSSL/1.1/lib/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64 -L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib -L/apps/Arch/software/OpenSSL/1.1/lib -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib -L/apps/Common/software/CUDA/11.8.0/stubs/lib64 -L/apps/Common/software/CUDA/11.8.0/lib -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. -v CMakeFiles/cmTC_da518.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o]
+        linker tool for 'C': /apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/bin/ld.gold
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/OpenSSL/1.1/lib/../lib64] ==> [/apps/Arch/software/OpenSSL/1.1/lib64]
+        collapse library dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64] ==> [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib64]
+        collapse library dir [/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64] ==> [/apps/Common/software/CUDA/11.8.0/stubs/lib64]
+        collapse library dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0] ==> [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0]
+        collapse library dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64] ==> [/apps/Arch/software/GCCcore/10.3.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/OpenSSL/1.1/lib] ==> [/apps/Arch/software/OpenSSL/1.1/lib]
+        collapse library dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib] ==> [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib]
+        collapse library dir [/apps/Common/software/CUDA/11.8.0/stubs/lib64] ==> [/apps/Common/software/CUDA/11.8.0/stubs/lib64]
+        collapse library dir [/apps/Common/software/CUDA/11.8.0/lib] ==> [/apps/Common/software/CUDA/11.8.0/lib]
+        collapse library dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..] ==> [/apps/Arch/software/GCCcore/10.3.0/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o;/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib64;/apps/Arch/software/OpenSSL/1.1/lib64;/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64;/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib64;/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib64;/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib64;/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib64;/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib64;/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib64;/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib64;/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib64;/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib64;/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib64;/apps/Common/software/CUDA/11.8.0/stubs/lib64;/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0;/apps/Arch/software/GCCcore/10.3.0/lib64;/lib64;/usr/lib64;/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib;/apps/Arch/software/OpenSSL/1.1/lib;/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib;/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib;/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib;/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib;/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib;/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib;/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib;/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib;/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib;/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib;/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib;/apps/Common/software/CUDA/11.8.0/lib;/apps/Arch/software/GCCcore/10.3.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/bin/ld.gold" "-v"
+      GNU gold (GNU Binutils 2.36.1) 1.16
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-1bwqSx"
+      binary: "/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-1bwqSx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DVERSION_INFO=\\\"2.0.4\\\""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-1bwqSx'
+        
+        Run Build Command(s): /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2f859/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2f859.dir/build.make CMakeFiles/cmTC_2f859.dir/build
+        gmake[1]: Entering directory '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-1bwqSx'
+        Building CXX object CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o
+        /apps/Arch/software/GCCcore/10.3.0/bin/c++   -DVERSION_INFO=\\"2.0.4\\"    -v -o CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o -c /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/apps/Arch/software/GCCcore/10.3.0/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/Arch/software/GCCcore/10.3.0 --with-local-prefix=/apps/Arch/software/GCCcore/10.3.0 --enable-bootstrap --with-isl=/dev/shm/GCCcore/10.3.0/system-system/gcc-10.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-D' 'VERSION_INFO="2.0.4"' '-v' '-o' 'CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D VERSION_INFO="2.0.4" /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccpLuvdF.s
+        GNU C++14 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed"
+        ignoring nonexistent directory "/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include"
+          as it is a non-system directory that duplicates a system directory
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include
+         /apps/Arch/software/OpenSSL/1.1/include
+         /apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include
+         /apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include
+         /apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include
+         /apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include
+         /apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include
+         /apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include
+         /apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include
+         /apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include
+         /apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include
+         /apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include
+         /apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include
+         /apps/Common/software/CUDA/11.8.0/nvvm/include
+         /apps/Common/software/CUDA/11.8.0/extras/CUPTI/include
+         /apps/Common/software/CUDA/11.8.0/include
+         /apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include
+         /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0
+         /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu
+         /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward
+         /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include
+         /apps/Arch/software/GCCcore/10.3.0/include
+         /usr/include
+        End of search list.
+        GNU C++14 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: dfbd2bc5bcee7ae2f922e378de46881c
+        COLLECT_GCC_OPTIONS='-D' 'VERSION_INFO="2.0.4"' '-v' '-o' 'CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpLuvdF.s
+        GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+        COMPILER_PATH=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/OpenSSL/1.1/lib/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/:/apps/Arch/software/OpenSSL/1.1/lib/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/:/apps/Common/software/CUDA/11.8.0/lib/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-D' 'VERSION_INFO="2.0.4"' '-v' '-o' 'CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_2f859
+        /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f859.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/apps/Arch/software/GCCcore/10.3.0/bin/c++
+        COLLECT_LTO_WRAPPER=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/Arch/software/GCCcore/10.3.0 --with-local-prefix=/apps/Arch/software/GCCcore/10.3.0 --enable-bootstrap --with-isl=/dev/shm/GCCcore/10.3.0/system-system/gcc-10.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (GCC) 
+        COMPILER_PATH=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/OpenSSL/1.1/lib/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/:/apps/Arch/software/OpenSSL/1.1/lib/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/:/apps/Common/software/CUDA/11.8.0/lib/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-D' 'VERSION_INFO="2.0.4"' '-v' '-o' 'cmTC_2f859' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2 -plugin /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccggntqL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2f859 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/OpenSSL/1.1/lib/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64 -L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib -L/apps/Arch/software/OpenSSL/1.1/lib -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib -L/apps/Common/software/CUDA/11.8.0/stubs/lib64 -L/apps/Common/software/CUDA/11.8.0/lib -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. -v CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o
+        collect2 version 10.3.0
+        /apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/bin/ld.gold -plugin /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccggntqL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2f859 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/OpenSSL/1.1/lib/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64 -L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib -L/apps/Arch/software/OpenSSL/1.1/lib -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib -L/apps/Common/software/CUDA/11.8.0/stubs/lib64 -L/apps/Common/software/CUDA/11.8.0/lib -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. -v CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o
+        GNU gold (GNU Binutils 2.36.1) 1.16
+        COLLECT_GCC_OPTIONS='-D' 'VERSION_INFO="2.0.4"' '-v' '-o' 'cmTC_2f859' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        /apps/Arch/software/GCCcore/10.3.0/bin/c++ -DVERSION_INFO=\\"2.0.4\\"   -v -Wl,-v CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2f859
+        gmake[1]: Leaving directory '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-1bwqSx'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/OpenSSL/1.1/include]
+          add: [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include]
+          add: [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include]
+          add: [/apps/Common/software/CUDA/11.8.0/nvvm/include]
+          add: [/apps/Common/software/CUDA/11.8.0/extras/CUPTI/include]
+          add: [/apps/Common/software/CUDA/11.8.0/include]
+          add: [/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include]
+          add: [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0]
+          add: [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu]
+          add: [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward]
+          add: [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+          add: [/apps/Arch/software/GCCcore/10.3.0/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include] ==> [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/OpenSSL/1.1/include] ==> [/apps/Arch/software/OpenSSL/1.1/include]
+        collapse include dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include] ==> [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include] ==> [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include] ==> [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include] ==> [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include] ==> [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include] ==> [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include] ==> [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include] ==> [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include] ==> [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include] ==> [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include]
+        collapse include dir [/apps/Common/software/CUDA/11.8.0/nvvm/include] ==> [/apps/Common/software/CUDA/11.8.0/nvvm/include]
+        collapse include dir [/apps/Common/software/CUDA/11.8.0/extras/CUPTI/include] ==> [/apps/Common/software/CUDA/11.8.0/extras/CUPTI/include]
+        collapse include dir [/apps/Common/software/CUDA/11.8.0/include] ==> [/apps/Common/software/CUDA/11.8.0/include]
+        collapse include dir [/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include] ==> [/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include]
+        collapse include dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0] ==> [/apps/Arch/software/GCCcore/10.3.0/include/c++/10.3.0]
+        collapse include dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu] ==> [/apps/Arch/software/GCCcore/10.3.0/include/c++/10.3.0/x86_64-pc-linux-gnu]
+        collapse include dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward] ==> [/apps/Arch/software/GCCcore/10.3.0/include/c++/10.3.0/backward]
+        collapse include dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include] ==> [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+        collapse include dir [/apps/Arch/software/GCCcore/10.3.0/include] ==> [/apps/Arch/software/GCCcore/10.3.0/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include;/apps/Arch/software/OpenSSL/1.1/include;/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include;/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include;/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include;/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include;/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include;/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include;/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include;/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include;/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include;/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include;/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include;/apps/Common/software/CUDA/11.8.0/nvvm/include;/apps/Common/software/CUDA/11.8.0/extras/CUPTI/include;/apps/Common/software/CUDA/11.8.0/include;/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include;/apps/Arch/software/GCCcore/10.3.0/include/c++/10.3.0;/apps/Arch/software/GCCcore/10.3.0/include/c++/10.3.0/x86_64-pc-linux-gnu;/apps/Arch/software/GCCcore/10.3.0/include/c++/10.3.0/backward;/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include;/apps/Arch/software/GCCcore/10.3.0/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-1bwqSx']
+        ignore line: []
+        ignore line: [Run Build Command(s): /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2f859/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2f859.dir/build.make CMakeFiles/cmTC_2f859.dir/build]
+        ignore line: [gmake[1]: Entering directory '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-1bwqSx']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/apps/Arch/software/GCCcore/10.3.0/bin/c++   -DVERSION_INFO=\\"2.0.4\\"    -v -o CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o -c /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/apps/Arch/software/GCCcore/10.3.0/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/Arch/software/GCCcore/10.3.0 --with-local-prefix=/apps/Arch/software/GCCcore/10.3.0 --enable-bootstrap --with-isl=/dev/shm/GCCcore/10.3.0/system-system/gcc-10.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'VERSION_INFO="2.0.4"' '-v' '-o' 'CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D VERSION_INFO="2.0.4" /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccpLuvdF.s]
+        ignore line: [GNU C++14 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include"]
+        ignore line: [  as it is a non-system directory that duplicates a system directory]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/OpenSSL/1.1/include]
+        ignore line: [ /apps/Arch/software/libffi/3.3-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/include]
+        ignore line: [ /apps/Common/software/CUDA/11.8.0/nvvm/include]
+        ignore line: [ /apps/Common/software/CUDA/11.8.0/extras/CUPTI/include]
+        ignore line: [ /apps/Common/software/CUDA/11.8.0/include]
+        ignore line: [ /apps/Arch/software/Eigen/3.3.9-GCCcore-10.3.0/include]
+        ignore line: [ /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0]
+        ignore line: [ /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-pc-linux-gnu]
+        ignore line: [ /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward]
+        ignore line: [ /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/include]
+        ignore line: [ /apps/Arch/software/GCCcore/10.3.0/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (GCC) version 10.3.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: dfbd2bc5bcee7ae2f922e378de46881c]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'VERSION_INFO="2.0.4"' '-v' '-o' 'CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpLuvdF.s]
+        ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
+        ignore line: [COMPILER_PATH=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/OpenSSL/1.1/lib/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/:/apps/Arch/software/OpenSSL/1.1/lib/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/:/apps/Common/software/CUDA/11.8.0/lib/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'VERSION_INFO="2.0.4"' '-v' '-o' 'CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_2f859]
+        ignore line: [/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f859.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/apps/Arch/software/GCCcore/10.3.0/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/Arch/software/GCCcore/10.3.0 --with-local-prefix=/apps/Arch/software/GCCcore/10.3.0 --enable-bootstrap --with-isl=/dev/shm/GCCcore/10.3.0/system-system/gcc-10.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/OpenSSL/1.1/lib/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/:/apps/Arch/software/OpenSSL/1.1/lib/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/:/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/:/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/:/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/:/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/:/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/:/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/:/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/:/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/:/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/:/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/:/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/:/apps/Common/software/CUDA/11.8.0/stubs/lib64/:/apps/Common/software/CUDA/11.8.0/lib/:/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'VERSION_INFO="2.0.4"' '-v' '-o' 'cmTC_2f859' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2 -plugin /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccggntqL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2f859 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/OpenSSL/1.1/lib/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64 -L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib -L/apps/Arch/software/OpenSSL/1.1/lib -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib -L/apps/Common/software/CUDA/11.8.0/stubs/lib64 -L/apps/Common/software/CUDA/11.8.0/lib -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. -v CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccggntqL.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2f859] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o] ==> obj [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o]
+          arg [-L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/OpenSSL/1.1/lib/../lib64] ==> dir [/apps/Arch/software/OpenSSL/1.1/lib/../lib64]
+          arg [-L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64] ==> dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64]
+          arg [-L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64] ==> dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64]
+          arg [-L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64] ==> dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64]
+          arg [-L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64] ==> dir [/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64]
+          arg [-L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0] ==> dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0]
+          arg [-L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64] ==> dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/OpenSSL/1.1/lib] ==> dir [/apps/Arch/software/OpenSSL/1.1/lib]
+          arg [-L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64] ==> dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64]
+          arg [-L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib]
+          arg [-L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib] ==> dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib]
+          arg [-L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib] ==> dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib]
+          arg [-L/apps/Common/software/CUDA/11.8.0/stubs/lib64] ==> dir [/apps/Common/software/CUDA/11.8.0/stubs/lib64]
+          arg [-L/apps/Common/software/CUDA/11.8.0/lib] ==> dir [/apps/Common/software/CUDA/11.8.0/lib]
+          arg [-L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..] ==> dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o] ==> obj [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 10.3.0]
+        ignore line: [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/bin/ld.gold -plugin /apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/apps/Arch/software/GCCcore/10.3.0/libexec/gcc/x86_64-pc-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccggntqL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2f859 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/OpenSSL/1.1/lib/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64 -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64 -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64 -L/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0 -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib -L/apps/Arch/software/OpenSSL/1.1/lib -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64 -L/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib -L/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib -L/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib -L/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib -L/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib -L/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib -L/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib -L/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib -L/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib -L/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib -L/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib -L/apps/Common/software/CUDA/11.8.0/stubs/lib64 -L/apps/Common/software/CUDA/11.8.0/lib -L/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../.. -v CMakeFiles/cmTC_2f859.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o /lib/../lib64/crtn.o]
+        linker tool for 'CXX': /apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/bin/ld.gold
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/OpenSSL/1.1/lib/../lib64] ==> [/apps/Arch/software/OpenSSL/1.1/lib64]
+        collapse library dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64/../lib64] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib/../lib64] ==> [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib/../lib64] ==> [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib64]
+        collapse library dir [/apps/Common/software/CUDA/11.8.0/stubs/lib64/../lib64] ==> [/apps/Common/software/CUDA/11.8.0/stubs/lib64]
+        collapse library dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0] ==> [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0]
+        collapse library dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../../../lib64] ==> [/apps/Arch/software/GCCcore/10.3.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/OpenSSL/1.1/lib] ==> [/apps/Arch/software/OpenSSL/1.1/lib]
+        collapse library dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64]
+        collapse library dir [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib] ==> [/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib]
+        collapse library dir [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib] ==> [/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib]
+        collapse library dir [/apps/Common/software/CUDA/11.8.0/stubs/lib64] ==> [/apps/Common/software/CUDA/11.8.0/stubs/lib64]
+        collapse library dir [/apps/Common/software/CUDA/11.8.0/lib] ==> [/apps/Common/software/CUDA/11.8.0/lib]
+        collapse library dir [/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/../../..] ==> [/apps/Arch/software/GCCcore/10.3.0/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtbegin.o;/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib64;/apps/Arch/software/OpenSSL/1.1/lib64;/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib64;/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib64;/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib64;/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib64;/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib64;/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib64;/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib64;/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib64;/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib64;/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib64;/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib64;/apps/Common/software/CUDA/11.8.0/stubs/lib64;/apps/Arch/software/GCCcore/10.3.0/lib/gcc/x86_64-pc-linux-gnu/10.3.0;/apps/Arch/software/GCCcore/10.3.0/lib64;/lib64;/usr/lib64;/apps/Arch/software/Python/3.9.5-GCCcore-10.3.0/lib;/apps/Arch/software/OpenSSL/1.1/lib;/apps/Arch/software/libffi/3.3-GCCcore-10.3.0/lib;/apps/Arch/software/GMP/6.2.1-GCCcore-10.3.0/lib;/apps/Arch/software/XZ/5.2.5-GCCcore-10.3.0/lib;/apps/Arch/software/SQLite/3.35.4-GCCcore-10.3.0/lib;/apps/Arch/software/Tcl/8.6.11-GCCcore-10.3.0/lib;/apps/Arch/software/libreadline/8.1-GCCcore-10.3.0/lib;/apps/Arch/software/ncurses/6.2-GCCcore-10.3.0/lib;/apps/Arch/software/bzip2/1.0.8-GCCcore-10.3.0/lib;/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/lib;/apps/Arch/software/zlib/1.2.11-GCCcore-10.3.0/lib;/apps/Common/software/cuDNN/8.7.0.84-CUDA-11.8.0/lib;/apps/Common/software/CUDA/11.8.0/lib;/apps/Arch/software/GCCcore/10.3.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/apps/Arch/software/binutils/2.36.1-GCCcore-10.3.0/bin/ld.gold" "-v"
+      GNU gold (GNU Binutils 2.36.1) 1.16
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "pybind/pybind11/tools/pybind11Common.cmake:295 (check_cxx_compiler_flag)"
+      - "pybind/pybind11/tools/pybind11Common.cmake:340 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "pybind/pybind11/tools/pybind11Common.cmake:396 (_pybind11_generate_lto)"
+      - "pybind/pybind11/CMakeLists.txt:232 (include)"
+    checks:
+      - "Performing Test HAS_FLTO"
+    directories:
+      source: "/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-vnK7jZ"
+      binary: "/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-vnK7jZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DVERSION_INFO=\\\"2.0.4\\\""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "HAS_FLTO"
+      cached: true
+      stdout: |
+        Change Dir: '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-vnK7jZ'
+        
+        Run Build Command(s): /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_661aa/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_661aa.dir/build.make CMakeFiles/cmTC_661aa.dir/build
+        gmake[1]: Entering directory '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-vnK7jZ'
+        Building CXX object CMakeFiles/cmTC_661aa.dir/src.cxx.o
+        /apps/Arch/software/GCCcore/10.3.0/bin/c++ -DHAS_FLTO  -DVERSION_INFO=\\"2.0.4\\"    -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_661aa.dir/src.cxx.o -c /cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-vnK7jZ/src.cxx
+        Linking CXX executable cmTC_661aa
+        /mimer/NOBACKUP/groups/snic2022-6-266/josef/Environments/megascenes-env/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_661aa.dir/link.txt --verbose=1
+        /apps/Arch/software/GCCcore/10.3.0/bin/c++ -DVERSION_INFO=\\"2.0.4\\"  CMakeFiles/cmTC_661aa.dir/src.cxx.o -o cmTC_661aa  -flto
+        gmake[1]: Leaving directory '/cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-vnK7jZ'
+        
+      exitCode: 0
+...

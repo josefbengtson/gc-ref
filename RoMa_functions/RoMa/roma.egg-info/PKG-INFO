@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: roma
+Version: 0.0.1
+Author: Johan Edstedt
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: einops
+Requires-Dist: torchvision
+Requires-Dist: opencv-python
+Requires-Dist: kornia
+Requires-Dist: albumentations
+Requires-Dist: loguru
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: h5py
+Requires-Dist: wandb
+Requires-Dist: timm

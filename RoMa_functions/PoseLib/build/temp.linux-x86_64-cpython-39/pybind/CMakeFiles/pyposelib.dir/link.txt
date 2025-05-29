@@ -1,0 +1,1 @@
+/apps/Arch/software/GCCcore/10.3.0/bin/c++ -fPIC -DVERSION_INFO=\"2.0.4\" -O3 -DNDEBUG -flto -shared  -o /cephyr/users/bjosef/Alvis/3DScenePerception/megascenes/RoMa_functions/PoseLib/build/lib.linux-x86_64-cpython-39/poselib.cpython-39-x86_64-linux-gnu.so CMakeFiles/pyposelib.dir/pyposelib.cc.o  ../PoseLib/libPoseLib.a

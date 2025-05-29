@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: poselib
+Version: 2.0.4
+Author: Viktor Larsson and contributors
+Author-email: viktor.larsson@math.lth.se
+License-File: LICENSE
+Requires-Dist: numpy
